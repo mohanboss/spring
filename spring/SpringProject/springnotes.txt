@@ -1,0 +1,60 @@
+1. spring web
+2. dev-tools
+3. H2 database
+4. mysql
+5. JPA
+
+
+netstat -ano -p tcp
+
+Solution for Error
+	1. snapshots maven project from spring initizr
+	2. right click on the project -> Maven -> update project -> choose
+		your maven project -> and check force snapshot release
+	3. Select the sub folder of the spring project while opening the file
+To Run Spring Application
+	1. src->main->java->right click on the class and run as - java 
+application
+
+
+
+http://localhost:8080/demoapp?name=Keerthi
+
+1. To Create Custom Application
+	- EmployeeApplication
+	- right click on src/main/java - create a package
+
+
+insomnia download for windows
+
+
+For Getting a input we need bean class
+
+Java Bean
+
+
+MVC - 
+
+Model
+	- it will provide entity for the database.
+	- right click on employee package - create new class and give 
+class Employee
+
+getter and setter methods
+	- right click on the variable and select refactor->Encapsulate 
+fields -> and click the access modifier as public
+
+View 
+
+	- endpoint - to display the output (it should be either JSON or HTML)
+
+Controller 
+
+	- Actions performed by the customer should be in controller
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+@SpringBootApplication
+	- To include springboot application on the project
+@RestController
+	- To give an actual action of the project (ex. routing, dbconnectivity)
+@GetMapping
+	- to get all the values based on the routing url
+@PostMapping
+	- to insert all the values in the database
+@DeleteMapping
+	- To delete the values based on id
+@PutMapping 	
+	- To updat the records based on id
+
+JPA Model
+@Entity
+	- it is used to access the Jpa repository
+@ID 
+	- id the unique property for each table
+@GeneratedValue
+	- to auto increment the values
+
+@RequestParam
+	- to pass values in the url
+
+@RequestBody
+	- to get user inputs
+
+@PathVariable
+	- tp extract the value passing in the url
+
+
+How to create a new project
+	- spring initializr
+	- select project should be Maven 
+	- select language should be Java
+	- verison - Snapshot(3.0.0(Snapshot))
+	- change package name com.example - to your package name
+	- jdk version - 17
+
+	-Add Dependies
+		- Spring web
+		- dev- tools
+		- h2 database
+		- mysql database
+		- spring data jpa
+
+	- Click Generate and it will create a zip file on the pc.
+
+1. Importing a project in eclipse
+
+1. file -> open project from file system -> open your spring project
+2. if error in pom.xml
+		- right click on the project -> maven -> update project ->
+		select force updates of snapshots
+
+3. Create a package
+	- CustomerApplication (it consists of main method)
+	- Create a java class for customer model
+	- Create a java class for customer controller
+	- Create a interface for importing jparepository
